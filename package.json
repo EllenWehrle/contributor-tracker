@@ -1,0 +1,13 @@
+{
+  "name": "contributor-tracker",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Permission-aware contributor discovery agent and local evidence dashboard.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js && node --check scripts/import-admin-articles.mjs && node --check scripts/sync-active-contributors.mjs",
+    "import:admin": "node scripts/import-admin-articles.mjs",
+    "sync:contributors": "node scripts/sync-active-contributors.mjs"
+  }
+}

@@ -1,0 +1,11 @@
+mapping_id,canonical_topic,mapping_type,mapped_value,parent_mapping_id,evidence_url,verification_status,last_verified_date,notes
+topic-001,Overview and getting started,article_topic,Overview and getting started,,docs/content-topics.md,verified,2026-09-22,Canonical sample topic
+topic-002,Environments,article_topic,Environments,,docs/content-topics.md,verified,2026-09-22,Canonical sample topic
+topic-003,"Copilot, agents, and AI","article_topic","Copilot, agents, and AI",,docs/content-topics.md,verified,2026-09-22,Canonical sample topic
+topic-004,Security and governance,article_topic,Security and governance,,docs/content-topics.md,verified,2026-09-22,Canonical sample topic
+topic-005,Monitoring and analytics,article_topic,Monitoring and analytics,,docs/content-topics.md,verified,2026-09-22,Canonical sample topic
+topic-006,"Licensing, capacity, and costs",article_topic,"Licensing, capacity, and costs",,docs/content-topics.md,verified,2026-09-22,Canonical sample topic
+topic-007,Deployment and lifecycle management,article_topic,Deployment and lifecycle management,,docs/content-topics.md,verified,2026-09-22,Canonical sample topic
+topic-008,Resources and data,article_topic,Resources and data,,docs/content-topics.md,verified,2026-09-22,Canonical sample topic
+topic-009,Automation and extensibility,article_topic,Automation and extensibility,,docs/content-topics.md,verified,2026-09-22,Canonical sample topic
+topic-010,Administration,article_topic,Administration,,docs/content-topics.md,verified,2026-09-22,Canonical sample topic

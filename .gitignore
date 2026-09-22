@@ -1,0 +1,6 @@
+.copilot-azure/
+.env
+.env.*
+node_modules/
+*.tmp
+data/private/
