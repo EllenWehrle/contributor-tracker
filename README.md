@@ -1,6 +1,6 @@
 # Contributor Tracker
 
-Contributor Tracker is a permission-aware GitHub Copilot agent and local dashboard for finding evidence-backed documentation contributors, reviewers, and topic experts. It preserves certainty and explicitly avoids ranking, scoring, or evaluating people.
+Contributor Tracker is a permission-aware GitHub Copilot agent and local dashboard for finding evidence-backed documentation contributors, reviewers, and Topic experts. It preserves certainty and explicitly avoids ranking, scoring, or evaluating people.
 
 This public repository contains no real contributor records. Its CSV stores contain headers and a small topic taxonomy only.
 
@@ -40,6 +40,12 @@ npm run check
 The repository-scoped agent is in [.github/agents/contributor-tracker.agent.md](.github/agents/contributor-tracker.agent.md). Open this repository in VS Code, open Copilot Chat, select **Contributor Tracker** from the agent picker, and ask a research question.
 
 The agent can use only tools and sources available to the current user. Missing permissions must be reported as gaps, not bypassed.
+
+## Use the Contributor Tracker skill
+
+The on-demand workflow is in [.github/skills/contributor-tracker/SKILL.md](.github/skills/contributor-tracker/SKILL.md). Invoke `/contributor-tracker` in Copilot Chat to research and route a review, import article evidence, synchronize recent contributors and Topic experts, or record a review outcome.
+
+The custom agent defines the research role and tool boundaries. The skill packages the repeatable operating procedure so it can also be discovered and loaded during relevant repository work.
 
 ## Populate public article evidence
 
