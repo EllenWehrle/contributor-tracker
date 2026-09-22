@@ -1,6 +1,6 @@
 # Contributor Tracker
 
-Contributor Tracker is a permission-aware GitHub Copilot agent and local dashboard for finding evidence-backed documentation contributors, reviewers, and Topic experts. It preserves certainty and explicitly avoids ranking, scoring, or evaluating people.
+Contributor Tracker is a permission-aware GitHub Copilot agent and local dashboard for finding evidence-backed documentation contributors, reviewers, and Topic experts. It explicitly avoids ranking, scoring, or evaluating people.
 
 This public repository contains no real contributor records. Its CSV stores contain headers and a small topic taxonomy only.
 
