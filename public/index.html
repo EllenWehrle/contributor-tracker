@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>Contributor Tracker</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">CT</span>
+          <div><strong>Contributor</strong><span>Tracker</span></div>
+        </div>
+        <nav aria-label="Dashboard views">
+          <button class="nav-item active" data-view="overview"><span aria-hidden="true">⌂</span>Overview</button>
+          <button class="nav-item" data-view="articles"><span aria-hidden="true">▤</span>Articles</button>
+          <button class="nav-item" data-view="identities"><span aria-hidden="true">◎</span>People</button>
+          <button class="nav-item" data-view="experts"><span aria-hidden="true">◇</span>Topic experts</button>
+          <button class="nav-item" data-view="taxonomy"><span aria-hidden="true">⌘</span>Topics</button>
+          <button class="nav-item" data-view="reviews"><span aria-hidden="true">↻</span>Review history</button>
+        </nav>
+        <div class="sidebar-foot">
+          <span class="status-dot"></span>
+          <div><strong>Local workspace</strong><span>No external runtime code</span></div>
+        </div>
+      </aside>
+
+      <main>
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Documentation research</p>
+            <h1 id="view-title">Research overview</h1>
+          </div>
+          <div class="top-actions">
+            <label class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <input id="global-search" type="search" placeholder="Filter this view" autocomplete="off" />
+            </label>
+            <button class="primary-button" id="add-button">+ Add article</button>
+          </div>
+        </header>
+
+        <div id="notice" class="notice" role="status" aria-live="polite"></div>
+        <section id="view" class="view" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <dialog id="record-dialog">
+      <form id="record-form" method="dialog">
+        <div class="dialog-head">
+          <div><p class="eyebrow" id="dialog-eyebrow">New record</p><h2 id="dialog-title">Add article</h2></div>
+          <button class="icon-button" type="button" data-close aria-label="Close" title="Close">×</button>
+        </div>
+        <div id="form-fields" class="form-grid"></div>
+        <div class="dialog-actions">
+          <button class="secondary-button" type="button" data-close>Cancel</button>
+          <button class="primary-button" type="submit">Save</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
